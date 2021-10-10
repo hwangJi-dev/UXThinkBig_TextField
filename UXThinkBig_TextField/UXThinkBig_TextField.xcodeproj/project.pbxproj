@@ -17,6 +17,8 @@
 		339BD51B2713105500BBA082 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BD51A2713105500BBA082 /* SignUpVC.swift */; };
 		339BD52127133EFA00BBA082 /* ReusableTextFieldAreaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339BD52027133EFA00BBA082 /* ReusableTextFieldAreaView.xib */; };
 		339BD52327133F9A00BBA082 /* ReusableTextFieldAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BD52227133F9A00BBA082 /* ReusableTextFieldAreaView.swift */; };
+		339BD52627134B6D00BBA082 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BD52527134B6D00BBA082 /* UIView+Extension.swift */; };
+		339BD52827136DC900BBA082 /* Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339BD52727136DC900BBA082 /* Notification.Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		339BD51A2713105500BBA082 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		339BD52027133EFA00BBA082 /* ReusableTextFieldAreaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableTextFieldAreaView.xib; sourceTree = "<group>"; };
 		339BD52227133F9A00BBA082 /* ReusableTextFieldAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableTextFieldAreaView.swift; sourceTree = "<group>"; };
+		339BD52527134B6D00BBA082 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		339BD52727136DC900BBA082 /* Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.Name.swift; sourceTree = "<group>"; };
 		FDD8D66A088CFA94FCD87B5B /* Pods-UXThinkBig_TextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig_TextField.release.xcconfig"; path = "Target Support Files/Pods-UXThinkBig_TextField/Pods-UXThinkBig_TextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,7 @@
 		339BD50E27130FAA00BBA082 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				339BD52427134B5F00BBA082 /* Extension */,
 				339BD51227130FED00BBA082 /* View */,
 			);
 			path = Global;
@@ -139,6 +144,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		339BD52427134B5F00BBA082 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				339BD52527134B6D00BBA082 /* UIView+Extension.swift */,
+				339BD52727136DC900BBA082 /* Notification.Name.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		653ADB6D2F8AF627BA55F029 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,7 +167,6 @@
 				2AABFAFC7E6F677BDE2BAD57 /* Pods-UXThinkBig_TextField.debug.xcconfig */,
 				FDD8D66A088CFA94FCD87B5B /* Pods-UXThinkBig_TextField.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,8 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339BD52627134B6D00BBA082 /* UIView+Extension.swift in Sources */,
 				339BD51B2713105500BBA082 /* SignUpVC.swift in Sources */,
 				339BD4F927130BEF00BBA082 /* AppDelegate.swift in Sources */,
+				339BD52827136DC900BBA082 /* Notification.Name.swift in Sources */,
 				339BD52327133F9A00BBA082 /* ReusableTextFieldAreaView.swift in Sources */,
 				339BD5192713103C00BBA082 /* VerifyVC.swift in Sources */,
 				339BD4FB27130BEF00BBA082 /* SceneDelegate.swift in Sources */,
